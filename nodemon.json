@@ -1,0 +1,3 @@
+{
+  "ignore": ["logs/*", "test/*", "docs/*","node_modules/*"]
+}
