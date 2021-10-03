@@ -16,9 +16,9 @@ const logHelper = require('./logHelper.js') // 文件模块 日志
  * **/
 const AipContentCensorClient = require('baidu-aip-sdk').contentCensor;
 const ApiImageSearch = require('baidu-aip-sdk').imageSearch;
-const APP_ID = '24210192';
-const API_KEY = 'poQo0ujRYcWyv7KGhBQvDFIs';
-const SECRET_KEY = 'r3ZrVDRIHwWeUFNNlGr9t2AlRAN5urek';
+const APP_ID = '...';
+const API_KEY = '...';
+const SECRET_KEY = '...';
 const contentCensorClient = new AipContentCensorClient(APP_ID, API_KEY, SECRET_KEY);
 const apiImageSearch = new ApiImageSearch(APP_ID, API_KEY, SECRET_KEY);
 /**
